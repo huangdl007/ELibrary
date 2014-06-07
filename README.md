@@ -1,3 +1,4 @@
 ELibrary
 ========
-A helpfu library application.
+运行环境：Apache + php
+注意：本网站只适合在手机上浏览，因为网站样式只针对手机页面而设计。
