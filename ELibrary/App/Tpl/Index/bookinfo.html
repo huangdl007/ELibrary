@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/index.css" />
+	<title>E-LIBRARY 书籍信息</title>
+</head>
+
+<body style="background: url(__PUBLIC__/image/back.png) repeat">
+<div>
+	<div class="book1">
+		<div class="cover">
+			<p><img src="<{$result['cover']}>" /></p>
+		</div>
+		<div class="info">
+			<p class="bookinf">书名：<{$result['title']}></p>
+			<p class="bookinf">作者：<{$result['author']}></p>
+			<notempty name="result['translator']"><p class="bookinf">译者：<{$result['translator']}></p></notempty>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+	<div id="bookstates">
+		<if condition="$result['isEast'] eq 0"><p>抱歉，此藏书不在东校区图书馆！</p>
+		<else />
+			<foreach name="bookstate" item="state">
+				<div class="states">
+					<p class="stateinf">状态：<{$state.state}></p>
+					<p class="stateinf">归还日期：<{$state.returndate}></p>
+					<p class="stateinf">校区：<{$state.library}></p>
+					<p class="stateinf">楼层：<{$state.where}></p>
+					<p class="stateinf">索书号：<{$state.bookshelf}></p>
+				</div>
+			</foreach>
+		</if>
+	</div>
+</div>
+
+</body>
+</html>

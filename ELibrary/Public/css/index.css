@@ -1,0 +1,129 @@
+body
+{
+	background: url(back.png) repeat;
+	margin: auto;
+	width: 100%;
+	font-size: 20px;
+}
+
+#pic img
+{
+    width: 60%;
+	margin-left: 20%;
+	
+}
+
+input[type="text"]
+{
+	margin-left: 10%;
+	width: 60%;
+	margin-top: 10%;
+	height: 35px;
+    border-radius: 10px;
+}
+
+input[type="submit"]
+{
+	height: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#bookInput
+{
+	display: inline;
+}
+.help
+{
+    border-radius: 10px;
+	margin: auto;
+	background-color: rgb(68,137,204);
+    font-size: 25px;
+    color: white;
+    font-family: KaiTi_GB2312;
+	margin-top: 15%;
+	margin-left: 10%;
+	width: 80%;
+	height: 40px;
+}
+
+.book
+{
+    margin-top:10%;
+	width: 80%;
+	font-size: 11px;
+	font-family: KaiTi_GB2312;
+	border: white solid 1px;
+	border-radius: 15px;
+	margin: auto;
+}
+
+.bookpic img
+{
+    width: 40%;
+    float:left;
+    clear:left;
+    border-radius: 15px;
+}
+
+
+.info
+{
+    width:58%;
+
+ 	float:left;
+    clear:right;
+}
+
+.clear
+{
+	 clear:both;
+}
+
+.bookinf
+{
+	width: 80%;
+	font-size: 11px;
+    margin-left:10%;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+.states
+{
+	width: 80%;
+	margin: auto;
+	border: white solid 1px;
+	margin-top: 2%;
+	font-size: 12px;
+	border-radius: 15px;
+	color: white;
+	font-family: KaiTi_GB2312;
+	background-color: rgb(68,137,204);
+}
+
+.stateinf
+{
+	width: 90%;
+    margin-left:5%;
+}
+
+.cover img
+{
+	width: 40%;
+    float:left;
+    clear:left;
+    border-radius: 15px;
+}
+
+.book1
+{
+    margin-top:10%;
+	width: 80%;
+	font-size: 11px;
+	font-family: KaiTi_GB2312;
+	margin: auto;
+}
